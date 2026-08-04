@@ -7,7 +7,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { useReveal } from "@/hooks/use-reveal";
-import retrato from "@/assets/leonam-matos.png.asset.json";
+
 
 const WHATSAPP =
   "https://wa.me/5500000000000?text=" +
@@ -282,7 +282,7 @@ function Index() {
                   className="absolute -left-4 -top-4 hidden h-24 w-24 border-t border-l border-gold/60 lg:block"
                 />
                 <img
-                  src={retrato.url}
+                  src="/leonam-matos.png"
                   width={1024}
                   height={1024}
                   loading="eager"
